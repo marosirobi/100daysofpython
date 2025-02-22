@@ -1,4 +1,4 @@
 .idea/
 .venv/
-*.sh
+git.sh
 
