@@ -1,4 +1,4 @@
 # Learning Python
-## day1
-eval "$(ssh-agent -s)"\
-ssh-add ~/.ssh/<keyfile>
+begin date: 2025/02/22
+## day1: completed
+2025/02/23
