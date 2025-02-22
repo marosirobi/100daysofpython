@@ -1,5 +1,4 @@
 .idea/
 .venv/
-!/git.sh
-!/.gitignore
+/git.sh
 
