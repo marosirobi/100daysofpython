@@ -19,7 +19,3 @@ glass2 = glass3
 
 print(glass1)
 print(glass2)
-
-
-
-

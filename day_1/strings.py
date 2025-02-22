@@ -12,4 +12,3 @@ input("enter your name: ")
 
 # ctrl + /
 print("hello " + input("enter your name: ") +"!")
-
