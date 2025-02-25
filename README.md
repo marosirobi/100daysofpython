@@ -8,7 +8,7 @@ begin date: 2025/02/21
 2025/02/23
 ## day 4: completed
 2025/02/25
-## day 5: 
-2025/02/
+## day 5: completed
+2025/02/25
 ## day 6: 
 2025/02/
