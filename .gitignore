@@ -3,3 +3,7 @@
 git.sh
 gitkey.sh
 __pycache__/
+venv/
+.env
+.cache
+*.db
