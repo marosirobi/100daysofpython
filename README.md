@@ -18,11 +18,11 @@ begin date: 2025/02/21
 2025/02/28
 ## day 9: completed
 2025/03/2
-## day 10: 
-2025/03/
-## day 11: 
-2025/03/
-## day 12: 
-2025/03/
+## day 10: completed
+2025/03/3
+## day 11: completed
+2025/03/4
+## day 12: completed
+2025/03/4
 ## day 13: 
 2025/03/
