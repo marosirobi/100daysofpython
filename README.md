@@ -24,5 +24,5 @@ begin date: 2025/02/21
 2025/03/4
 ## day 12: completed
 2025/03/4
-## day 13: 
-2025/03/
+## day 13: completed
+2025/03/4
