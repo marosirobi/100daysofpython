@@ -1,7 +1,7 @@
 from datetime import time
 from time import sleep
 from turtle import Turtle,Screen
-
+from scoreboard import *
 MOVE_DISTANCE = 20
 UP = 90
 DOWN = 270
@@ -13,6 +13,7 @@ class Snake:
         self.snake = []
         self.snake_default_body()
         self.head = self.snake[0]
+
     def snake_default_body(self):
         x=0
         y=0
@@ -25,8 +26,20 @@ class Snake:
             body.teleport(x,y)
             self.snake.append(body)
 
-    def snake_eat(self):
-        pass
+    def snake_grow(self):
+        x=self.snake[len(self.snake)-1].xcor()
+        y=self.snake[len(self.snake)-1].ycor()
+        for body in range(1):
+            body = Turtle("square")
+            body.penup()
+            body.color("white")
+            body.teleport(x,y)
+            self.snake.append(body)
+
+    def snake_over(self):
+        for body in range(1,len(self.snake)):
+            if self.head.distance(self.snake[body]) < 10:
+                return True
 
     def snake_move(self):
         for body in range(len(self.snake) - 1, 0, -1):
